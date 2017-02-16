@@ -1,0 +1,41 @@
+{
+  "name": "hexo-renderer-sass-typesettings",
+  "version": "1.0.0",
+  "description": "Sass renderer plugin for Hexo with Typesettings support",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandreleal/hexo-renderer-sass-typesettings.git"
+  },
+  "keywords": [
+    "hexo",
+    "renderer",
+    "hexo-renderer",
+    "sass",
+    "typesettings"
+  ],
+  "author": "Vandré Leal Cândido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandreleal/hexo-renderer-sass-typesettings/issues"
+  },
+  "homepage": "https://github.com/vandreleal/hexo-renderer-sass-typesettings#readme",
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.0",
+    "typesettings": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}

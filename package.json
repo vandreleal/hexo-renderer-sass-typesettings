@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-sass-typesettings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sass renderer plugin for Hexo with Typesettings support",
   "main": "index.js",
   "scripts": {
@@ -26,16 +26,16 @@
   },
   "homepage": "https://github.com/vandreleal/hexo-renderer-sass-typesettings#readme",
   "engines": {
-    "node": ">= 4"
+    "node": ">= 8"
   },
   "dependencies": {
-    "node-sass": "^4.5.0",
-    "typesettings": "^4.0.0"
+    "node-sass": "4.12.0",
+    "typesettings": "4.0.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
-    "standard": "^8.6.0"
+    "chai": "4.2.0",
+    "istanbul": "0.4.5",
+    "mocha": "6.1.4",
+    "standard": "12.0.1"
   }
 }

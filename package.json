@@ -1,12 +1,11 @@
 {
   "name": "hexo-renderer-sass-typesettings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sass renderer plugin for Hexo with Typesettings support",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "test": "mocha test/index.js",
-    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+    "test": "mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -29,13 +28,12 @@
     "node": ">= 8"
   },
   "dependencies": {
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.0",
     "typesettings": "4.0.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
-    "istanbul": "0.4.5",
-    "mocha": "6.1.4",
-    "standard": "12.0.1"
+    "mocha": "6.2.2",
+    "standard": "14.3.1"
   }
 }

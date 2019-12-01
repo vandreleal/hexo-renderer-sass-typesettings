@@ -4,7 +4,6 @@
 [![NPM Version](https://badge.fury.io/js/hexo-renderer-sass-typesettings.svg)](http://badge.fury.io/js/hexo-renderer-sass-typesettings)
 [![dependencies Status](https://david-dm.org/vandreleal/hexo-renderer-sass-typesettings/status.svg)](https://david-dm.org/vandreleal/hexo-renderer-sass-typesettings)
 [![devDependencies Status](https://david-dm.org/vandreleal/hexo-renderer-sass-typesettings/dev-status.svg)](https://david-dm.org/vandreleal/hexo-renderer-sass-typesettings?type=dev)
-[![Coverage Status](https://coveralls.io/repos/github/vandreleal/hexo-renderer-sass-typesettings/badge.svg?branch=master)](https://coveralls.io/github/vandreleal/hexo-renderer-sass-typesettings?branch=master)
 
 [Sass] renderer plugin for [Hexo] with [Typesettings] support.
 
